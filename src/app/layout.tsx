@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Naveenkumar P" }],
   robots: "index, follow",
+  icons: {
+    icon: "/logo-n.svg",
+  },
   openGraph: {
     title: "Naveenkumar P | AI Engineer & Full Stack Developer Portfolio",
     description: "B.Tech Artificial Intelligence & Data Science student portfolio. Discover engineering projects, analytics milestones, and AI interest pipelines.",

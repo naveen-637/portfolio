@@ -102,9 +102,11 @@ export default function Navbar() {
           className="flex items-center gap-2 group transition-opacity duration-200 hover:opacity-80"
           aria-label="Home"
         >
-          <span className="font-display font-bold text-[16px] tracking-[0.2em] text-white">
-            NAVEEN
-          </span>
+          <img
+            src="/logo-n.svg"
+            alt="Naveen Logo"
+            className="h-7 w-7 transition-transform duration-300 group-hover:scale-110"
+          />
         </a>
 
         {/* Desktop Links */}
